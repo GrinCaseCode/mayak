@@ -851,6 +851,12 @@
     .menu ul .menu__haschild.active > a::after {
         transform: rotate(-90deg);
     }
+    .about__head .title-section {
+        max-width: 350px;
+    }
+    .footer__contacts .footer__content {
+        max-width: 315px;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -900,7 +906,11 @@
     }
     .footer__contacts .footer__content {
         display: flex !important;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
     }
+
 }
 
  /* Large Devices, Wide Screens */
@@ -1004,5 +1014,11 @@
     }
     .footer__nav li a:active {
         color: #b6161d;
+    }
+    .menu ul a:active {
+        font-weight: 500;
+    }
+    .menu ul a:active span {
+        border-color: #fff;
     }
 }

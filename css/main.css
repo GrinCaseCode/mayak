@@ -1007,10 +1007,6 @@ form {
 }
 .footer__contacts .footer__content {
 	gap: 24px;
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	width: 100%;
 }
 .footer .phone-main {
 	font-size: 32px;
