@@ -840,6 +840,7 @@
         padding: 10px 20px;
     }
     .menu ul ul {
+        padding-top: 10px;
         left: 0;
     }
     .menu__haschild > a::after {
